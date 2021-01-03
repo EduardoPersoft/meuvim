@@ -1,5 +1,5 @@
-"call plug#begin('~\.vimj\plugged')
-call plug#begin('c:\users\eduardo\vimfiles\plugged')
+call plug#begin('~/.vim/plugged')
+"call plug#begin('c:\users\eduardo\vimfiles\plugged')
 Plug 'sheerun/vim-polyglot'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdtree' | Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -77,8 +77,8 @@ set lines=33 columns=142
 set wildmenu
 
 
-set pythonthreedll=C:\Python36_64\python36.dll
-let g:completor_python_binary = 'C:\Python36_64'
+"set pythonthreedll=C:\Python36_64\python36.dll
+"let g:completor_python_binary = 'C:\Python36_64'
 "let g:jedi#completions_enabled = 0
 
 " lightline
